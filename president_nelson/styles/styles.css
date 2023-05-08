@@ -1,0 +1,43 @@
+body {
+    background-color: hotpink;
+}
+
+.beginning h1 {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+
+.beginning h1:hover {
+    color: black;
+}
+
+.beginning p, h2 {
+    text-align: center;
+    color: white;
+}
+
+.four-principles h2 {
+    margin: 1% auto;
+    color: black;
+    text-align: center;
+} 
+
+img {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 3em;
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin: 50px auto
+}
+
+.name {
+    text-align: center;
+    color: black;
+}
