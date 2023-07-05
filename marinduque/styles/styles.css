@@ -108,6 +108,55 @@ nav a:hover {
     border: 10px solid #AFBBF2;
 }
 
+/* main body of travel.html */
+
+.travel-grid {
+    background-color: #ABEBD2;
+    display: grid;
+    margin-top: -65px;
+    grid-template-columns: repeat(6 20%);
+    grid-template-rows: repeat(5 20%);
+
+}
+
+#travel_1 {
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+#travel_2 {
+    grid-column: 3/5;
+    grid-row: 4/5;
+
+}
+
+#ferry {
+    max-width: 600px;
+    grid-column: 2/6;
+    grid-row: 2/4;
+    justify-self: center;
+    border: 10px solid #AFBBF2;
+}
+
+#jeepney{
+    max-width: 600px;
+    grid-column: 2/4;
+    grid-row: 5/7;
+    justify-self: center;
+    margin-bottom: 25px;
+    border: 10px solid #AFBBF2;
+}
+
+#tricycle{
+    max-width: 600px;
+    grid-column: 4/6;
+    grid-row: 5/7;
+    justify-self: center;
+    margin-bottom: 25px;
+    border: 10px solid #AFBBF2;
+}
+
+
 
 /* footer */
 
@@ -132,3 +181,43 @@ footer a:hover{
     padding: 40px;
     background-color: #AFBBF2;
 }
+
+/* submit form */
+
+#ending {
+    margin-top: -25px;
+    background-color: #AFBBF2;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
