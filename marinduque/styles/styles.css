@@ -156,7 +156,51 @@ nav a:hover {
     border: 10px solid #AFBBF2;
 }
 
+/* main body of things_to_do.html */
 
+.activities-grid{
+    background-color: #ABEBD2;
+    margin-top: -65px;
+    display: grid;
+    grid-template-columns: repeat(5 20%);
+    
+}
+
+#introduction_ttd {
+    grid-column: 2/5;
+}
+
+#beach {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 70%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+#beach_pic {
+    grid-column: 3/5;
+    grid-row: 2/4;
+    border: 10px solid #AFBBF2;
+    margin-bottom: 25px;
+}
+
+#moriones_festival {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    margin-right: 115px;
+    margin-top: 50%;
+    
+}
+
+#morion {
+    grid-column: 2/4;
+    grid-row: 5/7;
+    border: 10px solid #AFBBF2;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
 
 /* footer */
 
@@ -182,12 +226,15 @@ footer a:hover{
     background-color: #AFBBF2;
 }
 
+
+
 /* submit form */
 
 #ending {
     margin-top: -25px;
     background-color: #AFBBF2;
 }
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text] {
     width: 100%; /* Full width */
